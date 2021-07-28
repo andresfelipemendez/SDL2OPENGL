@@ -41,7 +41,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
     /// shutdown
     
-
+    gPlatform.shutDown();
 
     /*
     // TODO: Place code here.
