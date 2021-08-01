@@ -5,16 +5,8 @@ class Renderer
 public:
 	Renderer();
 	~Renderer();
-
-private:
-
+	void startUp();
+	void runLoop();
+	void shutDown();
 };
-
-Renderer::Renderer()
-{
-}
-
-Renderer::~Renderer()
-{
-}
 

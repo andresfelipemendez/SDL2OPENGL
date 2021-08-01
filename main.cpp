@@ -10,11 +10,14 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
                      _In_ int       nCmdShow)
 {
     gPlatform.startUp();
+    gRenderer.startUp();
 
-    while (gPlatform.isRunning) {
+    while (gPlatform.isRunning) 
+    {
 		gPlatform.runLoop();
-
+        gRenderer.startUp();
     }
 
+	gRenderer.startUp();
     gPlatform.shutDown();
 }

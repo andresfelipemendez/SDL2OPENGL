@@ -158,6 +158,7 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="platform.cpp" />
+    <ClCompile Include="renderer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="SDL2OPENGL.rc" />

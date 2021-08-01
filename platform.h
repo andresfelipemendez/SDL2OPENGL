@@ -7,7 +7,7 @@
 class Platform
 {
 public:
-	SDL_Window* window;
+	SDL_Window* window = nullptr;
 
 	bool isRunning = true;
 
