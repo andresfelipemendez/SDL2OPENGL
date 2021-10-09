@@ -1,0 +1,9 @@
+isometric camera?
+
+ - cube
+ - floor (quad?)
+ - physics 
+ - walk
+
+load meshes
+

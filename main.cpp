@@ -1,8 +1,11 @@
 #include "platform.h"
 #include "renderer.h"
+#include "types/scene.h"
 
 Platform gPlatform;
 Renderer gRenderer;
+
+scene gScene;
 
 int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
                      _In_opt_ HINSTANCE hPrevInstance,
@@ -11,6 +14,8 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 {
     gPlatform.startUp();
     gRenderer.startUp();
+
+    gScene.open("scene1.db");
 
     while (gPlatform.isRunning) 
     {
